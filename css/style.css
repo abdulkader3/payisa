@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1 h2 h3 h4 h5 h6 p ul ol {
+    margin: 0;
+    padding: 0;
+}
+
+.hihi {
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0, 0, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.hed {
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+.ferima p {
+    color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vBackground {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .vBackground {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (max-aspect-ratio:16/9) {
+    .vBackground {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+.numbergona {
+    width: 100px;
+    height: 50ox;
+    color: #999;
+}
+
+
+
+.ferima {
+    width: 264px;
+    font-size: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: #ccc;
+    -webkit-box-shadow: -10px 11px 27px 1px rgba(255, 255, 255, 1);
+    -moz-box-shadow: -10px 11px 27px 1px rgba(255, 255, 255, 1);
+    box-shadow: -10px 11px 27px 1px rgba(255, 255, 255, 1);
+
+
+
+
+}
